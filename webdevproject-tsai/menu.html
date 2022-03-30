@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Joanne Tsai">
+    <meta name="keywords" content="Pamela's Diner, Pittsburgh PA">
+    <meta name="description" content="Pamela's Diner official website">
+
+    <title>Pamela's Diner: Menu Page</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/menu-style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- javascript -->
+
+</head>
+
+<body>
+    <header>
+        <!-- Top left logo display -->
+        <div class="top_row_logo">     
+            <a class="active" href="index.html">
+            <img src="images/PamelaLogo.png" alt="Pamela's Logo" width="90px" height="72px"></a>
+        </div>
+        <!-- Top navigation bar -->
+        <div id="top_row">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html">About</a> <!-- page not created -->
+                <a class="selected" href="menu.html">Menu</a>
+                <a href="locationHour.html">Locations and Hours</a> 
+                <a href="whatEveryoneSays.html">What Everyone's Saying</a>  
+                <a href="contact.html">Contact</a>
+                <div>
+                    <button id="register_btn" onclick="location.href='contact.html';">Register</button>
+                    <button id="login_btn" onclick="location.href='index.html';">Log in</button>   
+                </div>
+            </nav>
+            
+        </div>
+        <h2 class="menu-heading">Breakfast of the Champions</h2>
+    </header>
+    <div class="menu-buttons">
+        <div>
+            <button id="menu_btn_1" onclick="window.open('menus/menu-mtLebanon.pdf');">Mt. Lebanon</button>
+        </div>
+        <div>
+            <button id="menu_btn_2" onclick="window.open('menus/menu-shadyside.pdf');">Shadyside</button>
+        </div>
+        <div>
+            <button id="menu_btn_3" onclick="window.open('menus/menu-strip.pdf');">Strip District</button>
+        </div>
+        <button id="orderOnline_btn" onclick="location.href='order_online.html';">Order Online</button>   
+    </div>
+
+    <br><br><br><br>
+
+    <footer>
+        &copy; Pamela's Diner<br/>
+    </footer>
+
+
+</body>
+
+</html>

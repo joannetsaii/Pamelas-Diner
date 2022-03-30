@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    background-image: url("../images/home-bg.png"); 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FFF6D8;
+}
+
+header {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/******** NAVIGATION BAR ********/
+
+.top_row_logo a {
+    float: left;
+    background-color: #FFF6D8;
+    padding: 13px 16px 10px 18px;
+}
+
+.top_row_logo img {
+    width: 90px;
+    height: 72px;
+}
+
+#top_row nav {
+    overflow: hidden;
+    background-color: #FFF6D8;
+}
+
+#top_row nav a {
+	float: left;
+    color: #251A03;
+    text-align: center;
+    padding: 41px 25px 41px 25px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #FFF6D8;
+    margin: 0px;
+}
+
+#top_row nav a.selected {
+	font-weight: bold;	
+}
+
+#top_row nav a.selected:hover {
+	font-weight: bold;
+}
+
+#top_row nav a:hover {	
+	font-weight: bold;
+}
+
+#login_btn {
+    float: right;
+    margin: 32px 10px 0px 20px;
+    padding: 8px 25px 8px 25px;
+    background-color: #FFFFFF;
+    border: 1px solid #EF5DA8;
+    border-radius: 7px;
+    color:#EF5DA8;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#login_btn:hover {
+    background-color: #ebe9ea;
+    border: 1px solid #d5629e;
+}
+
+#register_btn {
+    float: right;
+    margin: 32px 25px 20px 10px;
+    padding: 8px 19px 8px 19px;
+    background-color: #EF5DA8;
+    border: 1px solid #EF5DA8;
+    border-radius: 7px;
+    color:#FFFFFF;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#register_btn:hover {
+    background-color: #ce5192;
+    border: 1px solid #ce5192;
+}
+
+
+
+/******** HOME PAGE SPECIFIC ********/
+
+#joinToday_btn {
+    display: block;
+    margin: 40px auto 0px auto;
+    padding: 8px 25px 8px 25px;
+    background-color: #FFFFFF;
+    border: 1px solid #EF5DA8;
+    border-radius: 7px;
+    color:#EF5DA8;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#joinToday_btn:hover {
+    background-color: #ebe9ea;
+    border: 1px solid #d5629e;
+}
+
+#orderOnline_btn {
+    display: block;
+    margin: 32px auto 100px auto;
+    padding: 8px 19px 8px 19px;
+    background-color: #EF5DA8;
+    border: 1px solid #EF5DA8;
+    border-radius: 7px;
+    color:#FFFFFF;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#orderOnline_btn:hover {
+    background-color: #ce5192;
+    border: 1px solid #ce5192;
+}
+
+h1 { /* Serving the best breakfast */
+    text-align: center;
+    margin: 260px auto 30px auto;
+    color: #FFF;
+    font-size: 43px;
+}
+
+
