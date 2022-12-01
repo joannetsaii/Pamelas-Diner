@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Joanne Tsai">
+    <meta name="keywords" content="Pamela's Diner, Pittsburgh PA">
+    <meta name="description" content="Pamela's Diner official website">
+
+    <title>Pamela's Diner: Order Online</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/orderonline-style.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- js files -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script> // CITATION: script code retrieved from lab5
+		$(function() { $( "#gallery1 a" ).lightBox(); });
+        $(function() { $( "#gallery2 a" ).lightBox(); });
+        $(function() { $( "#gallery3 a" ).lightBox(); });
+        $(function() { $( "#gallery4 a" ).lightBox(); });
+	</script>
+</head>
+<body>
+    <header>
+        <!-- Top left logo display -->
+        <div class="top_row_logo">
+            <a class="active" href="index.html">
+            <img src="images/PamelaLogo.png" alt="a logo of pamela's" title="pamela's logo"></a>
+        </div>
+        <!-- Top navigation bar -->
+        <div id="top_row">
+            <nav>
+                <a href="index.html">Home</a> 
+                <a href="index.html">About</a> <!-- page not created -->
+                <a href="menu.html">Menu</a>
+                <a href="locationHour.html">Locations and Hours</a> 
+                <a href="whatEveryoneSays.html">What Everyone's Saying</a>  
+                <a href="joinUs.html">Join Us</a>  
+                <div>
+                    <button id="register_btn" onclick="location.href = 'joinUs.html';">Register</button>
+                    <button id="login_btn" onclick="location.href='index.html';">Log in</button>   
+                </div>
+            </nav>
+            
+        </div>
+    </header>
+
+
+    <!-- page content -->
+    <div class="content">
+        <!-- specialty hotcakes items -->
+        <!-- CITATION: gallery thumbnail code retrieved from lab5 -->
+        <div class="specialty-hotcakes">
+          <h3 class="category-label">Specialty Hotcakes Crepe-Style</h3>
+  
+          <div class="button_row">
+            <div class="button_col">
+            <div id="gallery1">
+                <div id="galleryThumbnail1"><div id="thmbnlShadow1">
+                <a href="images/menuItems/strawberry-hotcake.jpg"  title="Strawberry Hotcakes">
+                <img src="images/menuItems/strawberry-hotcake.jpg" alt="Strawberry Hotcakes" title="menuItem1 page"/>Strawberry Hotcakes</a></div></div>
+            </div>
+              <p class="item-price">$9.50</p>
+            </div>
+  
+            <div class="button_col">
+            <div id="gallery2">
+                <div id="galleryThumbnail2"><div id="thmbnlShadow2">
+                <a href="images/menuItems/blueberry-hotcake.jpg"  title="Blueberry Hotcakes">
+                <img src="images/menuItems/blueberry-hotcake.jpg" alt="Blueberry Hotcakes" title="menuItem2 page"/>Blueberry Hotcakes</a></div></div>
+            </div>
+                <p class="item-price">$9.50</p>
+            </div>
+  
+            <div class="button_col">
+            <div id="gallery3">
+                <div id="galleryThumbnail3"><div id="thmbnlShadow3">
+                <a href="images/menuItems/chocolate-hotcake.jpg"  title="Chocolate Chip Banana Hotcakes">
+                <img src="images/menuItems/chocolate-hotcake.jpg" alt="Chocolate Chip Banana Hotcakes" title="menuItem3 page"/>Chocolate Chip Banana Hotcakes</a></div></div>
+            </div>
+                <p class="item-price">$9.50</p>
+            </div>
+  
+            <div class="button_col">
+                <div id="gallery4">
+                    <div id="galleryThumbnail4"><div id="thmbnlShadow4">
+                    <a href="images/menuItems/banana-hotcake.jpg"  title="Banana Walnut Hotcakes">
+                    <img src="images/menuItems/banana-hotcake.jpg" alt="Banana Walnut Hotcakes" title="menuItem4 page"/>Banana Walnut Hotcakes</a></div></div>
+                </div>
+                <p class="item-price">$9.50</p>
+            </div>
+        </div>
+    </div>
+
+        <!-- egg combos items -->
+        <div class="egg-combos">
+            <h3 class="category-label">Egg Combos</h3>
+    
+            <div class="button_row">
+              <div class="button_col">
+                <a href="order_online.html" title="menuItem5 page"><img src="images/menuItems/scrambled-eggs.jpg" alt="Tex-Mex Omelet" title="Tex-Mex Omelet"/></a><br><br><br><br><br><br>
+                <a href="order_online.html" title="menuItem6 page">Tex-Mex Omelet</a>
+                <p class="item-price">$10.50</p>
+              </div>
+    
+              <div class="button_col">
+                <a href="order_online.html" title="menuItem6 page"><img src="images/menuItems/cheese-omelet.jpg" alt="Gail's Favorite Eggs" title="Gail's Favorite Eggs"/></a><br><br><br><br><br><br>
+                <a href="order_online.html" title="menuItem6 page">Cheese Omelet</a>
+                <p class="item-price">$9.50</p>
+              </div>
+    
+              <div class="button_col">
+                <a href="order_online.html" title="menuItem7 page"><img src="images/menuItems/meat-cheese-omelet.jpg" alt="Meat Cheese Omelet" title="Meat Cheese Omelet"/></a><br><br><br><br><br><br>
+                <a href="order_online.html" title="menuItem7 page">Meat & Cheese Omelet</a>
+                <p class="item-price">$8.50</p>
+              </div>
+    
+              <div class="button_col">
+                <a href="order_online.html" title="menuItem8 page"><img src="images/menuItems/western-omelet.jpg" alt="Western Omelet" title="Western Omelet"/></a><br><br><br><br><br><br>
+                <a href="order_online.html" title="menuItem8 page">Western Omelet</a>
+                <p class="item-price">$9.50</p>
+              </div>
+            </div>
+          </div>
+          <br><br><br><br><br>
+      </div> <!--Close content  -->
+      
+
+    <div id="sidebar">
+        <form>
+            <input type="search" id="search" name="search" placeholder="Search...">
+        </form>
+        <div class="filter-checkboxes">
+            <label><strong>Categories</strong></label><br><br>
+            <input type="checkbox" id="filter-1" name="filter-1" value="yes">   Hotcakes<br><br>
+            <input type="checkbox" id="filter-2" name="filter-2" value="yes">   French Toasts<br><br>
+            <input type="checkbox" id="filter-3" name="filter-3" value="yes">   Waffles<br><br>
+            <input type="checkbox" id="filter-4" name="filter-4" value="yes">   Sandwiches<br><br>
+            <input type="checkbox" id="filter-5" name="filter-5" value="yes">   Fan Favorites<br><br>
+            <input type="checkbox" id="filter-6" name="filter-6" value="yes">   Sides<br><br>
+        </div>
+        <button id="filter-btn">Filter</button>
+    </div> <!--Close sidebar  -->
+
+
+    <br><br><br>
+      <!-- footer -->
+    <footer>
+        &copy; Pamela's Diner  |  (412) 281-6366  |  Pittsburgh, Pa 15213<br/>
+    </footer>
+    </body>
+  
+  </html>

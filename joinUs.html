@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Joanne Tsai">
+    <meta name="keywords" content="Pamela's Diner, Pittsburgh PA">
+    <meta name="description" content="Pamela's Diner official website">
+
+    <title>Pamela's Diner: Contact Form</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/contact-style.css">
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- js files -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Top left logo display -->
+        <div class="top_row_logo">
+            <a href="index.html">
+            <img src="images/PamelaLogo.png" alt="pamela's logo"></a>
+        </div>
+        <!-- Top navigation bar -->
+        <div id="top_row">
+            <nav>
+                <a href="index.html">Home</a> 
+                <a href="index.html">About</a> <!-- page not created -->
+                <a href="menu.html">Menu</a>  <!-- page not created -->
+                <a href="locationHour.html">Locations and Hours</a> 
+                <a href="whatEveryoneSays.html">What Everyone's Saying</a>  
+                <a class="selected" href="joinUs.html">Join Us</a>  
+                <div>
+                    <button id="register_btn" onclick="location.href = 'joinUs.html';">Register</button>
+                    <button id="login_btn" onclick="location.href='index.html';">Log in</button>   
+                </div>
+            </nav>
+        </div> <!-- Close top_row -->
+        <h2 class="contact-heading">Subscribe to our Food</h2>
+        <p class="contact-subheading">Be the first to get notified of the latest menus and discounts.</p>
+    </header>
+
+    <div id="content">
+        <form onsubmit="return validate();" action="mailto:pam@pamelasdiner.com?subject=MailingListInformation" method="POST" name="Mailing List Information">
+            <p class="subtitle">Sign up for a free account</p>
+            <input type="text" id="name" name="name" value="" placeholder = "Full Name" size="20" minlength="2" maxlength="100" required><br/><br/>
+            <input type="text" id="zipcode" name="zipcode" value="" placeholder = "Zipcode" size="20"><br/><br/>
+            <input type="email" id="email" name="email" value="" placeholder = "Email" minlength="5" maxlength="100" required><br><br>
+            <div class="checkbox-style">
+                <input type="checkbox" id="joinmailinglst" name="joinmailinglst" value="yes">  I would like to subscribe to Pamela's newsletter.<br><br>
+            </div>
+            <input type="submit" id="submit_btn" value="Submit">
+        </form>
+    </div> <!-- Close content -->
+
+    <br><br>
+
+    <footer>
+        &copy; Pamela's Diner  |  (412) 281-6366  |  Pittsburgh, Pa 15213<br/>
+    </footer>
+
+</body>
+</html>
